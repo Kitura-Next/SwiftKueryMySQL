@@ -29,8 +29,8 @@ let package = Package(
         )
     ],
     dependencies: [
-        //.package(url: "https://github.com/Kitura-Next/Swift-Kuery.git", from: "3.1.0"),
-        .package(url: "https://github.com/Kitura-Next/Swift-Kuery.git", .branch("master")),
+        .package(url: "https://github.com/Kitura-Next/Swift-Kuery.git", from: "3.1.0"),
+        //.package(url: "https://github.com/Kitura-Next/Swift-Kuery.git", .branch("master")),
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
